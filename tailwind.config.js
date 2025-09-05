@@ -1,10 +1,11 @@
 export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        lemonmilk: ['lemonmilk', 'sans-serif'], 
+        lemonmilk: ["lemonmilk"],
       },
     },
   },
   plugins: [],
-}
+};
