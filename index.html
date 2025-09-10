@@ -39,28 +39,53 @@
 
     <!-- Biographie -->
 
-    <div class="flex justify-center items-center min-h-[calc(100vh-7rem)] mx-auto">
-      <div class="flex items-center gap-10 m-8">
-        <a class="flex">
-          <img src="/images/profil.jpg" alt="Logo" class="rounded-4xl object-cover size">
-        </a>
-        <a class="bg-[#cfcfcf]/70 p-6 rounded-3xl w-5/6">
-          <h2 class="font-lemonmilk text-3xl text-[#b824e5] pb-6">Jay XXXXXXXXX</h2>
-          <p class="text-xl">
-            Moi c'est Jay, j'ai 18 ans et je suis étudiant en 2ème année de BUT Informatique à Amiens. <br>Je suis actuellement a la recherche d'un stage.<br>
-            Je suis passioné par la programmation informatique et j'ai décidé de consacré <br>mon avenir professionel dans ce domaine.<br>
-            En plus de mes cours, j'apprends en auto-didacte des langages et des frameworks.<br>
-            Je maîtrise actuellement :
-          </p>
-          <img src="/images/maitriser.svg" alt="Langage maitriser" class="object-cover py-3">
-          <p class="text-xl">
-            Et je suis actuellement entrain d'apprendre :
-          </p>
-          <img src="/images/apprentissage.svg" alt="Langage en apprentissage" class="object-cover pt-3">
-        </a>
+    <section id="Profil">
+      <div class="flex justify-center items-center min-h-[calc(100vh-7rem)] mx-auto">
+        <div class="flex items-center m-8">
+          <div class="shrink-0 flex">
+            <a class="">
+              <img src="/images/profil.jpg" alt="Logo" class="rounded-l-4xl object-cover">
+            </a>
+            <a class="bg-[#cfcfcf]/70 p-6 rounded-r-4xl">
+              <h2 class="font-lemonmilk text-3xl text-[#b824e5] pb-3">Jay XXXXXXXXX</h2>
+              <p class="text-xl">
+                Moi c'est Jay, j'ai 18 ans et je suis étudiant en 2ème année de BUT Informatique à Amiens. <br>Je suis actuellement a la recherche d'un stage.<br>
+                Je suis passioné par la programmation informatique et j'ai décidé de consacré <br>mon avenir professionel dans ce domaine.<br>
+                En plus de mes cours, j'apprends en auto-didacte des langages et des frameworks.<br>
+                Je maîtrise actuellement :
+              </p>
+              <img src="/images/maitriser.svg" alt="Langage maitriser" class="object-cover py-3">
+              <p class="text-xl">
+                Et je suis actuellement entrain d'apprendre :
+              </p>
+              <img src="/images/apprentissage.svg" alt="Langage en apprentissage" class="object-cover pt-3">
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
+    <section id="Contact" class="lg:w-1/2 w-1/2 flex flex-col items-center align-items pb-5 bg-[#cfcfcf]/70 rounded-4xl mb-16 mx-auto">
+      <div class="flex flex-col items-center align-items">
+        <h2 class="font-lemonmilk text-3xl text-[#b824e5] m-6">Contact
+        </h2>
+        <h3 class="text-center text-xl">Besoin de me contacter ?</h3>
+      </div>
+      <div class="flex flex-wrap justify-center mt-5 gap-4 w-full px-4">
+          <a href="https://www.linkedin.com/in/jay-l-heronde-bbaaa3364/" target="_blank" class="bg-[#0A66C2] hover:bg-[#08427c] text-white py-3 px-6 rounded-xl flex items-center gap-2 whitespace-nowrap">
+            <img src="images/linkedin-logo.png" class="w-8 h-8" alt="Linkedin Logo">
+            Linkedin
+          </a>
+          <a href="mailto:contact@00j5y.xyz" target="_blank" class="bg-[#3dc5ff] hover:bg-[#2c8eb8] text-white py-3 px-6 rounded-xl flex items-center gap-2 whitespace-nowrap">
+            <img src="images/mail-logo.png" class="w-8 h-8" alt="E-Mail Logo">
+            E-Mail
+          </a>
+          <a href="https://github.com/00j5y" target="_blank" class="bg-[#1B1F23] hover:bg-[#050607] text-white py-3 px-6 rounded-xl flex items-center gap-2">
+            <img src="/images/github-logo.png" class="w-8 h-8" alt="GitHub Logo">
+            GitHub
+          </a>
+      </div>
+    </section>
 
     <script type="module" src="/src/main.js"></script>
 </body>
