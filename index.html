@@ -8,11 +8,11 @@
   <link rel="shortcut icon" href="/images/profil.jpg" type="image/x-icon">
 </head>
 
-<body class="bg-[#f8f8f8]">
+<body class="bg-[#FFFFFF]">
   <header class="bg-[#2C4E34] mt-8 p-3 w-5/6 mx-auto rounded-full">
     <div class="flex justify-between items-center mx-auto">
       <a class="flex items-center" href="index.html">
-        <img src="images/profil.jpg" alt="Logo" class="rounded-full size-15">
+        <img src="images/logo/profil.jpg" alt="Logo" class="rounded-full size-15">
         <h2 class="text-white font-sans pl-4 text-2xl font-semibold">
           Jay L'héronde
         </h2>
@@ -22,6 +22,7 @@
         <ul class="flex">
           <li><a class="text-white text-lg px-4 py-3 mx-2 relative max-[840px]:hidden after:content-[''] after:absolute after:h-1 after:left-4 after:bottom-1 after:w-0 after:bg-[#FFA900] after:transition-all after:duration-200 hover:after:w-11" href="#Profil">Profil</a></li>
           <li><a class="text-white text-lg px-4 py-3 mx-2 relative max-[840px]:hidden after:content-[''] after:absolute after:h-1 after:left-4 after:bottom-1 after:w-0 after:bg-[#FFA900] after:transition-all after:duration-200 hover:after:w-[48px]" href="#Projet">Projet</a></li>
+          <li><a class="text-white text-lg px-4 py-3 mx-2 relative max-[840px]:hidden after:content-[''] after:absolute after:h-1 after:left-4 after:bottom-1 after:w-0 after:bg-[#FFA900] after:transition-all after:duration-200 hover:after:w-[48px]" href="#Outils">Outils</a></li>
           <li><a class="text-white text-lg px-4 py-3 mx-2 relative max-[840px]:hidden after:content-[''] after:absolute after:h-1 after:left-4 after:bottom-1 after:w-0 after:bg-[#FFA900] after:transition-all after:duration-200 hover:after:w-16" href="#Contact">Contact</a></li>
           <li><a class="text-white text-lg px-4 py-3 mx-2 relative max-[840px]:hidden after:content-[''] after:absolute after:h-1 after:left-4 after:bottom-1 after:w-0 after:bg-[#FFA900] after:transition-all after:duration-200 hover:after:w-14" href="https://github.com/00j5y" target="_blank">Github</a></li>
         </ul>
@@ -46,34 +47,117 @@
         </p>
         <div class="flex items-center pt-7 gap-5 pl-6">
           <a href="mailto:jay.lheronde@gmail.com" target="_blank" class="bg-[#2C4E34] transition delay-50 duration-300 hover:bg-[#FFA900] text-white py-3 px-6 rounded-xl flex items-center gap-2 whitespace-nowrap">
-            <img src="images/mail-logo.png" class="w-8 h-8" alt="Contact Logo">
+            <img src="images/icons/mail-icon.png" class="w-8 h-8" alt="Contact Icon">
             Me contacter
           </a>
 
           <a href="cv/cv-lheronde-jay.pdf" target="_blank" class="bg-[#2C4E34] transition delay-50 duration-300 hover:bg-[#FFA900] text-white py-3 px-6 rounded-xl flex items-center gap-2 whitespace-nowrap">
-            <img src="images/cv-logo.png" class="w-8 h-8" alt="CV Logo">
+            <img src="images/icons/cv-icon.png" class="w-8 h-8" alt="CV Icon">
             Mon CV
           </a>
         </div>
       </div>
       <div>
-        <img src="/images/profil.jpg" alt="Logo" class="rounded-full border-8 border-[#FFA900]">
+        <img src="/images/logo/profil.jpg" alt="Logo" class="rounded-full border-8 border-[#FFA900]">
       </div>
     </div>
   </section>
 
   <!-- Séparation -->
 
-  <section class="bg-[#2C4E34] py-8"></section>
+  <section class="bg-[#2C4E34] h-50"></section>
 
   <!-- Langages et frameworks -->
 
-  <section class="">
-    <div>
-      <a class="flex flex-row">
-        <div class="h-1 w-3 bg-[#FFA900]"></div>
-        <h2 class="text-[#FFA900]">Langages et Framework</h2>
-      </a>
+  <section class="bg-[#FFFFFF] pt-10" id="Outils">
+      <div class="flex justify-center">
+        <div class="flex flex-col items-center text-center">
+          <a class="flex items-center">
+            <h2 class="flex items-center text-lg">
+              <span class="inline-block w-3 h-1 mr-2 bg-[#FFA900]"></span>
+              Mes outils préférés
+            </h2>
+          </a>
+          <p class="mt-2 text-3xl font-semibold">
+            Les <span class="italic text-[#FFA900]">langages</span> et <span class="italic text-[#FFA900]">frameworks</span><br>que j'utilise lors mes projets
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-align py-10 gap-10">
+        <!-- HTML-->
+        <div class="flex flex-col items-center">
+          <div class="bg-[#F4F4F4] p-5 rounded-4xl flex flex-col items-center">
+            <a href="https://developer.mozilla.org/fr/docs/Glossary/HTML5" target="_blank" class="flex flex-col items-center text-center">
+              <div class="bg-[#FFFFFF] h-30 w-30 flex justify-center items-center rounded-full">
+                <img src="/images/langages/html.jpg" alt="HTML" class="size-7/12"/>
+              </div>
+              <p class="pt-3 text-2xl text-[#252525] font-semibold">100%</p>
+            </a>
+          </div>
+          <h3 class="text-2xl py-2 text-[#252525]">HTML</h3>
+        </div>
+        <!-- Tailwind CSS -->
+        <div class="flex flex-col items-center">
+          <div class="bg-[#F4F4F4] p-5 rounded-4xl flex flex-col items-center">
+            <a href="https://tailwindcss.com/" target="_blank" class="flex flex-col items-center text-center">
+              <div class="bg-[#FFFFFF] h-30 w-30 flex justify-center items-center rounded-full">
+                <img src="/images/langages/tailwindcss.jpg" alt="Tailwind CSS" class="rounded-3xl size-7/12"/>
+              </div>
+              <p class="pt-3 text-2xl text-[#252525] font-semibold">80%</p>
+            </a>
+          </div>
+          <h3 class="text-2xl py-2 text-[#252525]">Tailwind CSS</h3>
+        </div>
+        <!-- JavaScript -->
+        <div class="flex flex-col items-center">
+          <div class="bg-[#F4F4F4] p-5 rounded-4xl flex flex-col items-center">
+            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" class="flex flex-col items-center text-center">
+              <div class="bg-[#FFFFFF] h-30 w-30 flex justify-center items-center rounded-full">
+                <img src="/images/langages/javascript.jpg" alt="JavaScript" class="rounded-3xl size-7/12"/>
+              </div>
+              <p class="pt-3 text-2xl text-[#252525] font-semibold">10%</p>
+            </a>
+          </div>
+          <h3 class="text-2xl py-2 text-[#252525]">JavaScript</h3>
+        </div>
+        <!-- Python -->
+        <div class="flex flex-col items-center">
+          <div class="bg-[#F4F4F4] p-5 rounded-4xl flex flex-col items-center">
+            <a href="https://www.python.org/" target="_blank" class="flex flex-col items-center text-center">
+              <div class="bg-[#FFFFFF] h-30 w-30 flex justify-center items-center rounded-full">
+                <img src="/images/langages/python.jpg" alt="Python" class="size-7/12"/>
+              </div>
+              <p class="pt-3 text-2xl text-[#252525] font-semibold">65%</p>
+            </a>
+          </div>
+          <h3 class="text-2xl py-2 text-[#252525]">Python</h3>
+        </div>
+        <!-- CPP -->
+        <div class="flex flex-col items-center">
+          <div class="bg-[#F4F4F4] p-5 rounded-4xl flex flex-col items-center">
+            <a href="hhttps://learn.microsoft.com/fr-fr/cpp/?view=msvc-170" target="_blank" class="flex flex-col items-center text-center">
+              <div class="bg-[#FFFFFF] h-30 w-30 flex justify-center items-center rounded-full">
+                <img src="/images/langages/cpp.jpg" alt="C++" class="size-7/12 rounded-3xl"/>
+              </div>
+              <p class="pt-3 text-2xl text-[#252525] font-semibold">75%</p>
+            </a>
+          </div>
+          <h3 class="text-2xl py-2 text-[#252525]">C++</h3>
+        </div>
+        <!-- MySQL -->
+        <div class="flex flex-col items-center">
+          <div class="bg-[#F4F4F4] p-5 rounded-4xl flex flex-col items-center">
+            <a href="hhttps://learn.microsoft.com/fr-fr/cpp/?view=msvc-170" target="_blank" class="flex flex-col items-center text-center">
+              <div class="bg-[#FFFFFF] h-30 w-30 flex justify-center items-center rounded-full">
+                <img src="/images/langages/mysql.jpg" alt="MySQL" class="size-7/12 rounded-3xl"/>
+              </div>
+              <p class="pt-3 text-2xl text-[#252525] font-semibold">80%</p>
+            </a>
+          </div>
+          <h3 class="text-2xl py-2 text-[#252525]">MySQL</h3>
+        </div>
+      </div>
     </div>
   </section>
 
